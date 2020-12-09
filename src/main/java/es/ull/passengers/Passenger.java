@@ -20,18 +20,16 @@
  */
 package es.ull.passengers;
 
+import es.ull.flights.Flight;
+
 import java.util.Arrays;
 import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import es.ull.flights.Flight;
 
 public class Passenger {
 
-    private String identifier;
-    private String name;
-    private String countryCode;
+    private final String identifier;
+    private final String name;
+    private final String countryCode;
     private Flight flight;
 
     public Passenger(String identifier, String name, String countryCode) {
