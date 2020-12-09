@@ -29,12 +29,12 @@ import es.ull.passengers.Passenger;
 
 public class Flight {
 
-    private String flightNumber;
-    private int seats;
-    private Set<Passenger> passengers = new HashSet<>();
+    private final String flightNumber;
+    private final int seats;
+    private final Set<Passenger> passengers = new HashSet<>();
 
-    private static String flightNumberRegex = "^[A-Z]{2}\\d{3,4}$";
-    private static Pattern pattern = Pattern.compile(flightNumberRegex);
+    private static final String flightNumberRegex = "^[A-Z]{2}\\d{3,4}$";
+    private static final Pattern pattern = Pattern.compile(flightNumberRegex);
 
     public Flight(String flightNumber, int seats) {
         Matcher matcher = pattern.matcher(flightNumber);
