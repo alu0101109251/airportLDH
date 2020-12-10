@@ -1,0 +1,31 @@
+
+Ees.ull.flights.Flight#removePassenger(Les/ull/passengers/Passenger;)Zl
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.java@ @(""1*É
+1l
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.javaA A(–“
+l
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.javaA A(!
+
+%0void"?es.ull.passengers.Passenger#setFlight(Les/ull/flights/Flight;)V**
+(
+	passengeres.ull.passengers.Passenger*
+""2"setFlight(Les/ull/flights/Flight;)·
+´
+l
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.javaB B(
+%1java.util.Set"__id*)*'
+es.ull.flights.Flight"
+
+passengersŠ‡
+l
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.javaB B(+
+%2boolean")java.util.Set#remove(Ljava/lang/Object;)Z*
+
+%1java.util.Set**
+(
+	passengeres.ull.passengers.Passenger2remove(Ljava/lang/Object;)"v
+l
+bC:/Users/Javier Alonso/Downloads/JUnit/Airport/airportLDH/src/main/java/es/ull/flights/Flight.javaB B(,
+"":(
+	passengeres.ull.passengers.PassengerB
+es.ull.flights.Flight
