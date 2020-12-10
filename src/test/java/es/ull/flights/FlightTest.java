@@ -22,7 +22,7 @@ public class FlightTest {
 
     @Test
     @DisplayName("Class Getters")
-    public void testFlightGetters() {
+    void testFlightGetters() {
         assertAll("Verify all attributes are set correctly",
                 () -> assertEquals(flightNumber, flight.getFlightNumber(), "Flight Number"),
                 () -> assertTrue(flight.addPassenger(passenger), "Adding a passenger"),
@@ -32,7 +32,7 @@ public class FlightTest {
 
     @Test
     @DisplayName("Adding passengers")
-    public void testAddingPassengers() {
+    void testAddingPassengers() {
         Passenger noSeatForHim = new Passenger("2", "Pedro", "ES");
         assertAll("Verify we can add passengers if there are available seats",
                 () -> assertTrue(flight.addPassenger(passenger), "We can add a passenger"),
@@ -42,7 +42,7 @@ public class FlightTest {
 
     @Test
     @DisplayName("Removing passengers")
-    public void testRemovingPassengers() {
+    void testRemovingPassengers() {
         assertAll("Verify we can remove passengers",
                 () -> assertTrue(flight.addPassenger(passenger), "Adding a passenger"),
                 () -> assertTrue(flight.removePassenger(passenger), "We can remove him"),

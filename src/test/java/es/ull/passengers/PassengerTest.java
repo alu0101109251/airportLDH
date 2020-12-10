@@ -20,7 +20,7 @@ public class PassengerTest {
 
     @Test
     @DisplayName("Class Getters")
-    public void testFlightGetters() {
+    void testFlightGetters() {
         assertAll("Verify all attributes are set correctly",
                 () -> assertEquals("1", passenger.getIdentifier(), "Passenger ID"),
                 () -> assertEquals("Javier", passenger.getName(), "Passenger Name"),
@@ -31,7 +31,7 @@ public class PassengerTest {
 
     @Test
     @DisplayName("Joining a flight")
-    public void testJoiningFlight() {
+    void testJoiningFlight() {
         Flight flight = new Flight("BA2490", 1);
         Flight emptyFlight = new Flight("BA2491", 0);
         assertAll("Verify we can join a flight",
