@@ -2,7 +2,11 @@
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=alu0101109251_airportLDH)
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/alu0101109251/airportLDH/Build)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alu0101109251/airportLDH)
+![GitHub language count](https://img.shields.io/github/languages/count/alu0101109251/airportLDH)
+![GitHub last commit](https://img.shields.io/github/last-commit/alu0101109251/airportLDH)
+
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=alu0101109251_airportLDH&metric=bugs)](https://sonarcloud.io/dashboard?id=alu0101109251_airportLDH)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=alu0101109251_airportLDH&metric=code_smells)](https://sonarcloud.io/dashboard?id=alu0101109251_airportLDH)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=alu0101109251_airportLDH&metric=coverage)](https://sonarcloud.io/dashboard?id=alu0101109251_airportLDH)
